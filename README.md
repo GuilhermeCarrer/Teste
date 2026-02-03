@@ -19,9 +19,12 @@ Este é um mini sistema de Gerenciamento de Países desenvolvido em **C# (Window
 
 ---
 
-## 📋 Pré-requisitos e Instalação
+## 📋 Pré-requisitos
 
-O projeto foi configurado para rodar em qualquer máquina, basta seguir estes dois passos:
+- Windows
+- Visual Studio
+- SQL Server
+- SQL Server Management Studio (SSMS)
 
 ### 1. Preparar o Banco de Dados
 Abra o seu **SQL Server Management Studio (SSMS)** e execute o script abaixo para criar a estrutura necessária:
@@ -42,15 +45,13 @@ CREATE TABLE paises (
 );
 
 ```
-Clone este repositório.
+## 📦 Clonando e Executando o Projeto
 
-Abra o arquivo .sln no Visual Studio.
+- Clone este repositório:
+- Abra o arquivo `.sln` no **Visual Studio**.
+- Verifique a **string de conexão** com o **SQL Server**.
+- Execute o projeto.
 
-Inserir: Preencha os dados e clique em cadastrar.
-
-Pesquisar: Digite o código no campo de busca para carregar os dados nos campos principais.
-
-Atualizar/Excluir: Após carregar um país pela busca, você pode editar seus dados ou removê-lo do sistema.
 
 
 
