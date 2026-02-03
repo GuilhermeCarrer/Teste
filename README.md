@@ -31,10 +31,10 @@ Abra o seu **SQL Server Management Studio (SSMS)** e execute o script abaixo par
 
 ```sql
 CREATE DATABASE crudpaises;
-
+GO
 
 USE crudpaises;
-
+GO
 
 CREATE TABLE paises (
     id_pais int not null primary key IDENTITY(1,1),
